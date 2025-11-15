@@ -1,0 +1,20 @@
+ClassName:Time
+Number of entities: 3
+Tue May 13 16:44:27 2025
+objectName: Time_1
+Hour: 20
+Minute: 5
+Second: 37
+
+Tue May 13 16:44:27 2025
+objectName: Time_2
+Hour: 18
+Minute: 10
+Second: 41
+
+Tue May 13 16:44:27 2025
+objectName: Time_3
+Hour: 3
+Minute: 40
+Second: 27
+

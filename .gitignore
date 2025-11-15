@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.opendb
+*.VC.db
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+
+# Build artifacts
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.res
+*.dll
+*.exe
+
+# Other temporary
+*.tmp
+*.bak
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.cachefile
