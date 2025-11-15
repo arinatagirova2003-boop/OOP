@@ -24,7 +24,6 @@ public:
 	~Dish();
 	void displayInfo();
 
-	// Геттеры
 	string getName();
 	float getProtein();
 	float getFat();
@@ -32,7 +31,6 @@ public:
 	float getEnergy();
 	bool getIsVegan();
 
-	// Сеттеры
 	void setName(const string& n);
 	void setProtein(float p);
 	void setFat(float f);
