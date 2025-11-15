@@ -31,7 +31,6 @@ void Vector::displayVec() {
     std::cout << "{ " << x << " , " << y << " , " << z << " }" << std::endl;
 }
 
-// Не належать класу
 Vector operator+(Vector op1, Vector op2) {
     return Vector(op1.getX() + op2.getX(),
         op1.getY() + op2.getY(),
