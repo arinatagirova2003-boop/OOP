@@ -72,16 +72,40 @@ Custom error hierarchies
 
 std::vector as dynamic container
 
+Object-Oriented Programming – C++ Laboratory Projects
 
-Structure
+Repository Structure:
+Lab 01 – lab01_student-records-manager – Student records system using file storage, classes, and CRUD.
+Lab 02 – lab02_time-logger – Time manipulation and logging system.
+Lab 03 – lab03_dish-nutrition-calculator – Nutrition calculator for dishes.
+Lab 04 – lab04_vector-operations – Custom vector implementation and arithmetic operations.
+Lab 05 – lab05_employee-staff-management – Employee management system with sorting, searching, and file IO.
+Lab 07 – lab07_pair-rational-arithmetic – Pair class and rational arithmetic with operator overloading.
+Lab 09 – lab09_dynamic-array-vector-exceptions – Dynamic array with exception safety.
+Lab 09 Templates – lab09_templates-array-vector-polymorphic-input – Template-based array and vector.
+Lab 10 – lab10_template-array-vector-specializations – Template class specializations.
 
-Each lab is placed in its own folder:
+Requirements:
+- C++17 compatible compiler
+- CMake 3.12 or higher
 
-oop-projects/
-   lab01_student-records-manager/
-   lab02_time-logger/
-   lab03_dish-nutrition-calculator/
-   lab04_vector-operations/
+How to Build Any Lab:
+1. Enter the folder:
+   cd lab07_pair-rational-arithmetic
+2. Create build directory:
+   mkdir build && cd build
+3. Generate build files:
+   cmake ..
+4. Build the project:
+   cmake --build .
+5. Run the executable:
+   ./lab07_pair_rational_arithmetic   (Linux/macOS)
+   .\Debug\lab07_pair_rational_arithmetic.exe   (Windows)
+
+Notes:
+- All .cpp files inside each folder are automatically included using file(GLOB).
+- Visual Studio project files were removed; CMake is the primary build system.
+
    lab05_employee-staff-management/
    lab07_pair-rational-arithmetic/
    lab09_dynamic-array-vector-exceptions/
